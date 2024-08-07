@@ -6,7 +6,7 @@
 
 // First Section
 
-var dateColumn = "OnPremDW_VW_Dim_Date[ActualDate]"; //R&L Actual Date Column from Date table
+var dateColumn = "'OnPremDW_VW_Dim_Date'[ActualDate]"; //R&L Actual Date Column from Date table
 
 foreach(var m in Selected.Measures)
 {
